@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "ClassLibrary2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary2.dll": {}
+        }
+      },
+      "FunctionalLin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FunctionalLin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FunctionalLin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibrary2/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary2/ClassLibrary2.csproj",
+      "msbuildProject": "../ClassLibrary2/ClassLibrary2.csproj"
+    },
+    "FunctionalLin/1.0.0": {
+      "type": "project",
+      "path": "../FunctionalLin/FunctionalLin.csproj",
+      "msbuildProject": "../FunctionalLin/FunctionalLin.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "ClassLibrary2 >= 1.0.0",
+      "FunctionalLin >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Andre\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Andre\\source\\repos\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+      "projectName": "WpfApp2",
+      "projectPath": "C:\\Users\\Andre\\source\\repos\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+      "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andre\\source\\repos\\WpfApp2\\WpfApp2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Andre\\source\\repos\\WpfApp2\\ClassLibrary2\\ClassLibrary2.csproj": {
+              "projectPath": "C:\\Users\\Andre\\source\\repos\\WpfApp2\\ClassLibrary2\\ClassLibrary2.csproj"
+            },
+            "C:\\Users\\Andre\\source\\repos\\WpfApp2\\FunctionalLin\\FunctionalLin.csproj": {
+              "projectPath": "C:\\Users\\Andre\\source\\repos\\WpfApp2\\FunctionalLin\\FunctionalLin.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
